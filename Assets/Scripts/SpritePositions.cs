@@ -1,11 +1,11 @@
 using UnityEngine;
 using System.Collections;
-using Player = PlayerMovement;
 
 public class SpritePositions : MonoBehaviour
 {
-    public Transform target;
+    public Transform player;
     Camera cam;
+    public static Vector2 screenPos;
 
     void Start()
     {
@@ -15,7 +15,6 @@ public class SpritePositions : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 screenPos = cam.WorldToScreenPoint(target.position);
-        Player.Direction(screenPos.x, screenPos.y);
+        screenPos = cam.WorldToScreenPoint(player.position);
     }
 }

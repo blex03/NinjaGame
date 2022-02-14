@@ -220,7 +220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5532ec22471c5441b2f328e5c34366b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 2127545358}
+  player: {fileID: 2127545358}
 --- !u!1 &2127545355
 GameObject:
   m_ObjectHideFlags: 0
@@ -252,6 +252,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  spriteRenderer: {fileID: 2127545357}
+  spriteArray:
+  - {fileID: 1670885039, guid: 2ddfa5fc0713e234e8b7d6f167cf9993, type: 3}
+  - {fileID: -42037434, guid: 2ddfa5fc0713e234e8b7d6f167cf9993, type: 3}
+  - {fileID: -332147121, guid: 2ddfa5fc0713e234e8b7d6f167cf9993, type: 3}
+  - {fileID: -2022173401, guid: 2ddfa5fc0713e234e8b7d6f167cf9993, type: 3}
+  - {fileID: 214678246, guid: 2ddfa5fc0713e234e8b7d6f167cf9993, type: 3}
+  - {fileID: -1202312175, guid: 2ddfa5fc0713e234e8b7d6f167cf9993, type: 3}
+  - {fileID: 40477681, guid: 2ddfa5fc0713e234e8b7d6f167cf9993, type: 3}
+  - {fileID: -1353017391, guid: 2ddfa5fc0713e234e8b7d6f167cf9993, type: 3}
 --- !u!212 &2127545357
 SpriteRenderer:
   m_ObjectHideFlags: 0
