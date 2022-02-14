@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NinjaSheet_0
+      name: Ninja_0
       rect:
         serializedVersion: 2
         x: 0
@@ -130,14 +130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24ac502cfd2f5ad4ea6568dd110207f0
-      internalID: 908726450
+      spriteID: ee8173a080cbf2b479d7b31e2fa52702
+      internalID: 1670885039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NinjaSheet_1
+      name: Ninja_1
       rect:
         serializedVersion: 2
         x: 50
@@ -151,14 +151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e7f37c948ff1a645a32a7c96342fe32
-      internalID: 266234222
+      spriteID: 204ecd1a0d752644b9b0176d3c51a706
+      internalID: -42037434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NinjaSheet_2
+      name: Ninja_2
       rect:
         serializedVersion: 2
         x: 100
@@ -172,14 +172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ca26484e2b2a2b47adc7fb76107dae7
-      internalID: -211796569
+      spriteID: d51284c7b48503142ac84ef870c0d784
+      internalID: -332147121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NinjaSheet_3
+      name: Ninja_3
       rect:
         serializedVersion: 2
         x: 150
@@ -193,14 +193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb249e9e8866c414eb3a9280891db2a2
-      internalID: 2067183002
+      spriteID: ffa8b166c0439be4e83a7da5ef659b31
+      internalID: -2022173401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NinjaSheet_4
+      name: Ninja_4
       rect:
         serializedVersion: 2
         x: 200
@@ -214,14 +214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7cefb441681ba04f8c89ea467ce7bfe
-      internalID: -1846989481
+      spriteID: a398a1349e367574089fe87f5b898bdb
+      internalID: 214678246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NinjaSheet_5
+      name: Ninja_5
       rect:
         serializedVersion: 2
         x: 250
@@ -235,14 +235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d42dbcadd0480e4393033d3f0e4c702
-      internalID: -117329568
+      spriteID: 67c4845aaf0efbe408c145cd53f54649
+      internalID: -1202312175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NinjaSheet_6
+      name: Ninja_6
       rect:
         serializedVersion: 2
         x: 300
@@ -256,14 +256,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 618e369ecbdbff0419a53a9989dfe019
-      internalID: -1842255689
+      spriteID: 3e1c6492d88e7554489a3d7af3696540
+      internalID: 40477681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NinjaSheet_7
+      name: Ninja_7
       rect:
         serializedVersion: 2
         x: 350
@@ -277,8 +277,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 313e635c10f24de40a431c24e631c3fa
-      internalID: -706978392
+      spriteID: 683f750f478cd0a4ea0df03ddf4183ba
+      internalID: -1353017391
       vertices: []
       indices: 
       edges: []
@@ -294,14 +294,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      NinjaSheet_5: -117329568
-      NinjaSheet_3: 2067183002
-      NinjaSheet_0: 908726450
-      NinjaSheet_2: -211796569
-      NinjaSheet_7: -706978392
-      NinjaSheet_4: -1846989481
-      NinjaSheet_6: -1842255689
-      NinjaSheet_1: 266234222
+      Ninja_2: -332147121
+      Ninja_4: 214678246
+      Ninja_3: -2022173401
+      Ninja_7: -1353017391
+      Ninja_6: 40477681
+      Ninja_0: 1670885039
+      Ninja_1: -42037434
+      Ninja_5: -1202312175
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

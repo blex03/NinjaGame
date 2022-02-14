@@ -3,20 +3,10 @@ using System;
 
 public class PlayerMovement : MonoBehaviour
 {
-
     public float speed = 5;
 
-
-    // Start is called before the first frame update
-    private void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    private void Update()
-    {
-        //NWE
+    private void Movement(){
+         //NWE
         if (Input.GetKey(KeyCode.W)) {
             if (Input.GetKey(KeyCode.D)) {
                 transform.Translate(Vector2.up * (float)(Math.Sqrt(Math.Pow(speed, 2) / 2) * Time.deltaTime));
@@ -55,5 +45,17 @@ public class PlayerMovement : MonoBehaviour
         else if (Input.GetKey(KeyCode.D)) {
             transform.Translate(Vector2.right * speed * Time.deltaTime);
         }
+    }
+
+    public static SpriteRenderer spriteRenderer;
+    public static Sprite[] spriteArray;
+
+    public static void Direction(float screenPosX, float screenPosY){
+        Debug.Log("X: " + screenPosX + ", Y: " + screenPosY);
+    }
+
+    private void Update()
+    {
+        Movement();
     }
 }
