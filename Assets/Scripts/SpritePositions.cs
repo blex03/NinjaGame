@@ -12,7 +12,6 @@ public class SpritePositions : MonoBehaviour
         cam = GetComponent<Camera>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         screenPos = cam.WorldToScreenPoint(player.position);

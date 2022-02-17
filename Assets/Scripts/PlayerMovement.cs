@@ -2,59 +2,25 @@ using UnityEngine;
 using System;
 using PlayerPos = SpritePositions;
 
-public class PlayerMovement : MonoBehaviour
-{
 
-    //Movement
-    public float speed = 5;
-
-    private void Movement(){
-       
-         //NWE
-        if (Input.GetKey(KeyCode.W)) {
-            if (Input.GetKey(KeyCode.D)) {
-                transform.Translate(Vector2.up * (float)(Math.Sqrt(Math.Pow(speed, 2) / 2) * Time.deltaTime));
-                transform.Translate(Vector2.right * (float)(Math.Sqrt(Math.Pow(speed, 2) / 2) * Time.deltaTime));
-            }
-            else if (Input.GetKey(KeyCode.A)) {
-                transform.Translate(Vector2.up * (float)(Math.Sqrt(Math.Pow(speed, 2) / 2) * Time.deltaTime));
-                transform.Translate(Vector2.left * (float)(Math.Sqrt(Math.Pow(speed, 2) / 2) * Time.deltaTime));
-            }
-            else {
-                transform.Translate(Vector2.up * speed * Time.deltaTime);
-            }
-        }
-        
-        //SWE
-        else if (Input.GetKey(KeyCode.S)) {
-            if (Input.GetKey(KeyCode.D)) {
-                transform.Translate(Vector2.down * (float)(Math.Sqrt(Math.Pow(speed, 2) / 2) * Time.deltaTime));
-                transform.Translate(Vector2.right * (float)(Math.Sqrt(Math.Pow(speed, 2) / 2) * Time.deltaTime));
-            }
-            else if (Input.GetKey(KeyCode.A)) {
-                transform.Translate(Vector2.down * (float)(Math.Sqrt(Math.Pow(speed, 2) / 2) * Time.deltaTime));
-                transform.Translate(Vector2.left * (float)(Math.Sqrt(Math.Pow(speed, 2) / 2) * Time.deltaTime));
-            }
-            else {
-                transform.Translate(Vector2.down * speed * Time.deltaTime);
-            }
-        }
-
-        //W
-        else if (Input.GetKey(KeyCode.A)) {
-            transform.Translate(Vector2.left * speed * Time.deltaTime);
-        }
-
-        //E
-        else if (Input.GetKey(KeyCode.D)) {
-            transform.Translate(Vector2.right * speed * Time.deltaTime);
-        }
-    }
-
-    //Sprite Direction
+public class PlayerMovement : MonoBehaviour {
+    public Rigidbody2D rb2;
+    public float speed = 5.0f;
+    private Vector2 movement;
     public SpriteRenderer spriteRenderer;
     public Sprite[] spriteArray;
 
+    
+    void Start () {
+        rb2 = GetComponent<Rigidbody2D>();
+    }
+
+    //Movement
+    void moveCharacter(Vector2 direction){
+        rb2.MovePosition((Vector2)transform.position + (direction.normalized * speed * Time.fixedDeltaTime));
+    }
+    
+    //Direction
     private void Direction(){
         Vector2 mousePos = Input.mousePosition;
 
@@ -131,9 +97,13 @@ public class PlayerMovement : MonoBehaviour
         
     }
 
-    //Update
-    void Update(){
-        Movement();
+    void Update () {
+        movement = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+    }
+    void FixedUpdate(){
+        moveCharacter(movement);
         Direction();
     }
+
+    
 }
