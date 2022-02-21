@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AttackSheet_0
+      name: Slash_0
       rect:
         serializedVersion: 2
         x: 0
@@ -130,14 +130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 570894e27886ebb49bb0cdbe0e1a3014
-      internalID: 1785916539
+      spriteID: 13a5968edb5bc5448bf7d5aec732d758
+      internalID: -1845008412
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AttackSheet_1
+      name: Slash_1
       rect:
         serializedVersion: 2
         x: 30
@@ -151,14 +151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70f6a9668fc66fc40bf15f338297b096
-      internalID: 1838125603
+      spriteID: 1fbede344ae00ba439e3475261bb9c89
+      internalID: 1496643656
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AttackSheet_2
+      name: Slash_2
       rect:
         serializedVersion: 2
         x: 60
@@ -172,14 +172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08a1e3898da02764eb8ca6d13b8bdb66
-      internalID: -649519683
+      spriteID: 439864aa378f94a4bb75dcd0b96cede2
+      internalID: 1252292875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AttackSheet_3
+      name: Slash_3
       rect:
         serializedVersion: 2
         x: 90
@@ -193,14 +193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d000904eadfeb043906afebbbe3b59b
-      internalID: -887347237
+      spriteID: c51af690144ac534682315afdef41c0e
+      internalID: -1928345426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AttackSheet_4
+      name: Slash_4
       rect:
         serializedVersion: 2
         x: 120
@@ -214,14 +214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6e6d58ef6c3c1748a6e41a2b9848d67
-      internalID: -861217195
+      spriteID: 4665619bccbd04146995567baa4f8713
+      internalID: -1131498692
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AttackSheet_5
+      name: Slash_5
       rect:
         serializedVersion: 2
         x: 150
@@ -235,14 +235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61bf2b1157c0cc0408f226a80427ff86
-      internalID: -118633629
+      spriteID: fdca156c69d2d214f887d70e05514ca8
+      internalID: -1617015194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AttackSheet_6
+      name: Slash_6
       rect:
         serializedVersion: 2
         x: 180
@@ -256,14 +256,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 977ebd8bc92195844ac2fffb4d58c133
-      internalID: 493383321
+      spriteID: 63e5c6f89aefaa04ea0472a187798a45
+      internalID: 1125063353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AttackSheet_7
+      name: Slash_7
       rect:
         serializedVersion: 2
         x: 210
@@ -277,8 +277,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76aadbb29f291724ba426d9951f82b63
-      internalID: -257960536
+      spriteID: e22a1fa4f91e93b4eaa012e59afd70cf
+      internalID: 1791032694
       vertices: []
       indices: 
       edges: []
@@ -294,14 +294,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      AttackSheet_2: -649519683
-      AttackSheet_4: -861217195
-      AttackSheet_5: -118633629
-      AttackSheet_3: -887347237
-      AttackSheet_6: 493383321
-      AttackSheet_7: -257960536
-      AttackSheet_1: 1838125603
-      AttackSheet_0: 1785916539
+      Slash_5: -1617015194
+      Slash_6: 1125063353
+      Slash_4: -1131498692
+      Slash_7: 1791032694
+      Slash_2: 1252292875
+      Slash_0: -1845008412
+      Slash_3: -1928345426
+      Slash_1: 1496643656
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
