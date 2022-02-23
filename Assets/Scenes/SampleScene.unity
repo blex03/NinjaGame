@@ -552,4 +552,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackPoint: {fileID: 1342563162}
-  slashPrefab: {fileID: 6043366462455216030, guid: 5628df2c01f57fd47b99899e55b539bf, type: 3}
+  slashPrefab: {fileID: 4249265335590882058, guid: 5efd9704cfc5a76489feee220e5bb603, type: 3}
