@@ -134,8 +134,8 @@ GameObject:
   - component: {fileID: 189922645}
   - component: {fileID: 189922644}
   - component: {fileID: 189922647}
-  - component: {fileID: 189922646}
   - component: {fileID: 189922648}
+  - component: {fileID: 189922646}
   m_Layer: 0
   m_Name: Zombie_0
   m_TagString: Untagged
@@ -223,6 +223,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 20
+  rb: {fileID: 189922648}
+  player: {fileID: 2127545358}
+  spriteRenderer: {fileID: 189922644}
+  spriteArray:
+  - {fileID: 2020596916, guid: 9cbf4c9d7d752294e91ac825a2497600, type: 3}
+  - {fileID: 889791741, guid: 9cbf4c9d7d752294e91ac825a2497600, type: 3}
+  - {fileID: -1449478361, guid: 9cbf4c9d7d752294e91ac825a2497600, type: 3}
+  - {fileID: 1576131774, guid: 9cbf4c9d7d752294e91ac825a2497600, type: 3}
+  - {fileID: -27815694, guid: 9cbf4c9d7d752294e91ac825a2497600, type: 3}
+  - {fileID: -1277122838, guid: 9cbf4c9d7d752294e91ac825a2497600, type: 3}
+  - {fileID: -402169424, guid: 9cbf4c9d7d752294e91ac825a2497600, type: 3}
+  - {fileID: -1717667201, guid: 9cbf4c9d7d752294e91ac825a2497600, type: 3}
 --- !u!61 &189922647
 BoxCollider2D:
   m_ObjectHideFlags: 0
